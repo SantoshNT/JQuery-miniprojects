@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            JQUI
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="jqueryUI/jquery-ui.css">
+        <link rel="stylesheet" href="jqueryUI/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jqueryUI/jquery-ui.theme.css">
+    </head>
+          
+    <body>
+        <h3>jQuery</h3>
+        <img src="Images/aa.jpg" id="img" title=" " alt="image"><br><br>
+        
+    </body>
+    </head>
+    <script>   
+        $("#img").tooltip({
+            content:"Knowledge is power",
+            track:true,
+            show:{effect:"highlight",duration:1000},
+            hide:{effect:"explode",duration:500}
+        });
+    </script>
+    </html>
