@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <title>
@@ -11,8 +12,9 @@
           
     <body>
         <h3>jQuery</h3>
+// image based on knowledge
         <img src="Images/aa.jpg" id="img" title=" " alt="image"><br><br>
-        
+ 
     </body>
     </head>
     <script>   
