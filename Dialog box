@@ -1,3 +1,4 @@
+/*Code to generate Dialog box*/
 <html>
     <head>
         <title>
@@ -12,10 +13,10 @@
     <body>
         <div id="div1">
             <h3>jQuery</h3>
-           <button id="btn1">Click here to get message box</button>
+           <button id="btn">Click here to get message box</button>
         <div id="div2" style="visibility: hidden;">
             <h3>This is boxing</h3>
-            <img src="Images/aa.jpg" id="img"title="">
+            <img src="Images/aa.jpg" id="img" title="">
         </div> 
         
 
@@ -23,7 +24,7 @@
     </body>
     </head>
      <script>   
-        $("#btn1").click(function(){
+        $("#btn").click(function(){
         
          document.getElementById("div2").style.visibility="visible";
 
@@ -32,7 +33,7 @@
             draggable: true,
             resizable: true,
             height:500,
-            width:500,
+            width:600,
             modal:true,
             buttons:[{
                 text:"Close",
