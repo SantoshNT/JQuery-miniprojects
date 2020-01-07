@@ -14,7 +14,7 @@
         <div id="div1">
             <h3>jQuery</h3>
            <button id="btn">Click here to get message box</button>
-        <div id="div2" style="visibility: hidden;">
+        <div id="div" style="visibility: hidden;">
             <h3>This is boxing</h3>
             <img src="Images/aa.jpg" id="img" title="">
         </div> 
