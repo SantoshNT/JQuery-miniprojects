@@ -26,9 +26,9 @@
      <script>   
         $("#btn").click(function(){
         
-         document.getElementById("div2").style.visibility="visible";
+         document.getElementById("div").style.visibility="visible";
 
-         $("#div2").dialog({
+         $("#div").dialog({
             title:"This is message box",
             draggable: true,
             resizable: true,
