@@ -21,7 +21,7 @@
             content:"Knowledge is power",
             track:true,
             show:{effect:"highlight",duration:1000},
-            hide:{effect:"explode",duration:500}
+           hide:{effect:"explode",duration:500}
         });
     </script>
     </html>
