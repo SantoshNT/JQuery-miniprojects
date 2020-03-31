@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="jqueryUI/jquery-ui.structure.css">
         <link rel="stylesheet" href="jqueryUI/jquery-ui.theme.css">
     </head>
-          
+         
     <body>
         <div id="div1">
             <h3>jQuery</h3>
